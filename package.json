@@ -29,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/FashionFridayTech/server/issues"
   },
-  "homepage": "https://github.com/FashionFridayTech/server#readme"
+  "homepage": "https://github.com/FashionFridayTech/server#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.27",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
 }
