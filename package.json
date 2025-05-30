@@ -4,7 +4,8 @@
   "description": "Fashion Friday Backend is a high-performance, scalable, and secure e-commerce API built to power the Fashion Friday web application. Utilizing modern TypeScript and Node.js, it manages critical business logic including user authentication, product catalog management, order fulfillment, payment processing, and inventory control. Developed with industry best practices for API design, security, and maintainability, it ensures seamless integration with frontend clients and third-party services. Maintained by a dedicated engineering team, this backend provides a reliable and extensible foundation for delivering exceptional shopping experiences at scale.",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"No tests specified\" && exit 0"
+    "test": "echo \"No tests specified\" && exit 0",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
   },
   "repository": {
     "type": "git",
